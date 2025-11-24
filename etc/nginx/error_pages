@@ -1,0 +1,6 @@
+error_page 400 401 403 404 405 406 408 409 410 /error.html;
+
+location /error.html {
+    root /var/www;
+    internal;
+}
